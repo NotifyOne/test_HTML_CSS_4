@@ -1,0 +1,14 @@
+.section-logo {
+    padding-bottom: 100px;
+    hr {
+        margin-bottom: 100px;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-top: $color-header-hr 1px solid;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
