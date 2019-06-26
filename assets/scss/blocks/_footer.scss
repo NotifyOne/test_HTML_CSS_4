@@ -1,13 +1,15 @@
 .footer {
     padding: 40px 0;
     &-links {
-        width: 20%;
+        // margin-right: 100px;
     }
     a {
         color: $color-footer-links;
     }
-    .container {
+    .wrap {
+        width: 50%;
         display: flex;
+        justify-content: space-between;
     }
     ul > li {
         padding: 4px;
