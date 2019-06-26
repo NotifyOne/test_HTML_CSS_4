@@ -1,0 +1,26 @@
+.section-1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    &-block {
+        width: 30%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+            margin-bottom: 21px;
+            color: $color-section-1-h2;
+        }
+        p {
+            color: $color-section-1-p;
+        }
+        img {
+            width: 350px;
+        }
+    }
+}

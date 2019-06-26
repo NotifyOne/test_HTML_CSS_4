@@ -7,6 +7,8 @@
     &-top {
         &-save {
             width: 200px;
+            padding-left:7px;
+            padding-top: 2px;
             &--save {
                 margin-left:15px;
                 font-size: 14px;
@@ -19,10 +21,13 @@
 
         &-links {
             font-weight: 600;
+            font-size: 13px;
             float: right;
             margin: 25px 0;
+            margin-right: 10px;
+            color: $color-white;
             a {
-                margin: 0 20px;
+                margin-left: 45px;
                 text-transform: uppercase;
             }
         }
@@ -37,9 +42,10 @@
         margin-top: 80px;
     }
     &-content {
-        padding-top: 420px;
-        padding-bottom: 400px;
+        padding-top: 410px;
+        padding-bottom: 425px;
         color: $color-white;
+        padding-left: 30px;
         h1 {
             font-size: 85px;
             font-weight: bold;
@@ -48,15 +54,15 @@
         }
         p {
             margin-top: 25px;
-            margin-bottom: 25px;
+            margin-bottom: 49px;
             width: 400px;
         }
         input[type=button] {
             background-color: rgba(0,0,0,0);
             border-color: $color-white;
+            border-style: outset;
             color: inherit;
-            font-size: 17px;
-            padding: 15px 30px;
+            padding: 16px 40px;
         }
     }
 }
