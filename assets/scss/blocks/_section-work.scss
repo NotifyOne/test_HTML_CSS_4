@@ -24,6 +24,9 @@
             &:nth-child(1) {
                 width: 64.5%;
             }
+            &:hover {
+                backdrop-filter: #000;
+            }
         }
     }
 }

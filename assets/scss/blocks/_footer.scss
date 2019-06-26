@@ -1,10 +1,10 @@
 .footer {
     padding: 40px 0;
-    &-links {
-        // margin-right: 100px;
-    }
     a {
         color: $color-footer-links;
+        &:hover {
+            color: $color-header-save;
+        }
     }
     .wrap {
         width: 50%;

@@ -28,6 +28,14 @@
             &:nth-child(2) {
                 background-color: $color-section-2-blue;
             }
+            &:hover {
+                li {
+                    display: none;
+                }
+                h3 {
+                    padding-top: 30px;
+                }
+            }
             li {
                 font-size: 30px;
                 padding-bottom: 15px;
