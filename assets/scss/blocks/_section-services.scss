@@ -7,11 +7,12 @@
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 20px;
+        text-transform: capitalize;
     }
     p {
         width: 50%;
-        color: $color-header-hr;
-        margin-bottom: 30px;
+        color: $color-header-save;
+        margin-bottom: 50px;
     }
     &--services {
         display: flex;
@@ -37,6 +38,7 @@
                 padding-bottom: 10px;
                 font-weight: 600;
                 font-size: 20px;
+                text-transform: capitalize;
             }
             p {
                 color: $color-header-save;

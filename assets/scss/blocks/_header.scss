@@ -62,8 +62,9 @@
             border-color: $color-white;
             border-style: outset;
             color: inherit;
-            padding: 16px 40px;
+            padding: 10px 40px;
             border: 1px solid;
+            text-transform: uppercase;
             &:hover {
                 background-color: $color-white;
                 color: $color-section-1-h2;

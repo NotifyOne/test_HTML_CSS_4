@@ -65,8 +65,10 @@
                     text-transform: uppercase;
                     display: inline-block;
                     margin-top: 20px;
-                    padding: 10px 25px;
-                    background-color: $color-section-1-p;
+                    padding: 13px 25px;
+					background-color: $color-section-4-link;
+					color: $color-section-1-h2;
+					font-weight: 600;
                     &:hover {
                         color: $color-white;
                         background-color: $color-section-2-blue;

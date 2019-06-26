@@ -13,6 +13,7 @@
         flex-direction: column;
         justify-content: space-between;
         h2 {
+            text-transform: capitalize;
             margin-bottom: 21px;
             color: $color-section-1-h2;
         }
