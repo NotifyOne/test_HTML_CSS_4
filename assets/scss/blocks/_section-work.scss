@@ -1,0 +1,29 @@
+.section-work {
+    .container {
+        padding: 100px 0;
+    }
+    h2 {
+        color: $color-section-1-h2;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    p {
+        width: 50%;
+        color: $color-header-hr;
+        margin-bottom: 30px;
+    }
+    .images {
+        margin: -13px; /* =) */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            width: 31%;
+            margin: 13px;
+            &:nth-child(1) {
+                width: 64.5%;
+            }
+        }
+    }
+}
