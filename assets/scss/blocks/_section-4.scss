@@ -67,6 +67,10 @@
                     margin-top: 20px;
                     padding: 10px 25px;
                     background-color: $color-section-1-p;
+                    &:hover {
+                        color: $color-white;
+                        background-color: $color-section-2-blue;
+                    }
                 }
 			}
 		}

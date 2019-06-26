@@ -57,12 +57,18 @@
             margin-bottom: 49px;
             width: 400px;
         }
-        input[type=button] {
+        a {
             background-color: rgba(0,0,0,0);
             border-color: $color-white;
             border-style: outset;
             color: inherit;
             padding: 16px 40px;
+            border: 1px solid;
+            &:hover {
+                background-color: $color-white;
+                color: $color-section-1-h2;
+                border: $color-white;
+            }
         }
     }
 }

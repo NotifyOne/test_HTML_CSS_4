@@ -18,6 +18,19 @@
         display: flex;
         justify-content: space-between;
         &-work {
+            &:hover {
+                h3 {
+                    color: $color-section-3-span2;
+                }
+                .img-wrap {
+                    opacity: 0.5;
+                }
+            }
+            .img-wrap {
+                img {
+                    opacity: 1;
+                }
+            }
             span {
                 text-transform: uppercase;
             }

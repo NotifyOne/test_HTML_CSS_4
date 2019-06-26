@@ -18,6 +18,10 @@
             background-color: $color-section-1-h2;
             padding:15px 30px;
             display: inline-block;
+            &:hover {
+                color: $color-white;
+                background-color: $color-section-2-blue;
+            }
         }
 	}
 	&-block {
@@ -40,6 +44,9 @@
             padding: 40px 20px;
             font-weight: 600;
             color: $color-section-1-h2;
+            &:hover {
+                color: $color-section-3-span2;
+            }
         }
 
 	}
