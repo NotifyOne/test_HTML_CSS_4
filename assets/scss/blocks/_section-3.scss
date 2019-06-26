@@ -1,0 +1,58 @@
+.section-3 {
+    padding: 100px 0;
+    h2 {
+        margin-bottom: 10px;
+    }
+    h2, h3 {
+        color: $color-section-1-h2;
+        font-weight: 600;
+    }
+    &-p {
+        width: 50%;
+        margin-bottom: 70px;
+    }
+    p {
+        color: $color-section-1-p;
+    }
+    &-works {
+        display: flex;
+        justify-content: space-between;
+        &-work {
+            span {
+                text-transform: uppercase;
+            }
+            width: 32%;
+            img {
+                width: 100%;
+                padding-bottom: 20px;
+            }
+            &-name {
+                h3 {
+                    display: inline-block;
+                    font-size: 20px;
+                    margin-right: 20px;
+                }
+                span {
+                    color: $color-section-3-span;
+                    font-size: 10px;
+                }
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 10px;
+            }
+            span {
+                color: $color-section-3-span2;
+                a {
+                    color: $color-section-3-span2;
+                }
+            }
+            &--more::after {
+                content: '\00a0-';
+                font-size: 25px;
+                color: $color-section-2-blue;
+            }
+        }
+
+    }
+}
