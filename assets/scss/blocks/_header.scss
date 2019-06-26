@@ -1,0 +1,62 @@
+.header {
+    padding-top: 15px;
+    background-image: url('/assets/img/1920x1080/01.jpg');
+    background-size: cover;
+    position: relative;
+
+    &-top {
+        &-save {
+            width: 200px;
+            &--save {
+                margin-left:15px;
+                font-size: 14px;
+                color: $color-header-save;
+                font-size: 38px;
+                float: left;
+                line-height: 80px;
+            }
+        }
+
+        &-links {
+            font-weight: 600;
+            float: right;
+            margin: 25px 0;
+            a {
+                margin: 0 20px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    hr {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-color: $color-header-hr;
+        position: absolute;
+        margin-top: 80px;
+    }
+    &-content {
+        padding-top: 420px;
+        padding-bottom: 400px;
+        color: $color-white;
+        h1 {
+            font-size: 85px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            text-transform: uppercase;
+        }
+        p {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            width: 400px;
+        }
+        input[type=button] {
+            background-color: rgba(0,0,0,0);
+            border-color: $color-white;
+            color: inherit;
+            font-size: 17px;
+            padding: 15px 30px;
+        }
+    }
+}
