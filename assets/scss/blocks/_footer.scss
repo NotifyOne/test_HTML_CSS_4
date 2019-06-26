@@ -1,0 +1,15 @@
+.footer {
+    padding: 40px 0;
+    &-links {
+        width: 20%;
+    }
+    a {
+        color: $color-footer-links;
+    }
+    .container {
+        display: flex;
+    }
+    ul > li {
+        padding: 4px;
+    }
+}
