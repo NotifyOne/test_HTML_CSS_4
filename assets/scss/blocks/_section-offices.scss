@@ -1,0 +1,42 @@
+.sect-offices {
+    padding: 100px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &--office {
+        width: 32%;
+        h3 {
+            color: $color-section-1-h2;
+            padding-bottom: 20px;
+            font-weight: 600;
+            font-size: 20px;
+            display: inline-block;
+
+            &::after {
+                content: '\00a0\00a0';
+            }
+        }
+        span {
+            color: $color-header-save;
+            text-transform: uppercase;
+        }
+        p {
+            color: $color-header-save;
+            margin: 0;
+            width: 90%;
+            padding-bottom: 20px;
+        }
+        h4 {
+            font-size: 14px;
+            display: inline-block;
+        }
+        li {
+            display: inline-block;
+            color: $color-section-2-blue;
+            padding-bottom: 10px;
+            font-size: 15px;
+            padding-right: 3px;
+        }
+    }
+}
