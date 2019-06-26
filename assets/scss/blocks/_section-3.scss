@@ -16,10 +16,8 @@
     }
     &-works {
         display: flex;
-        // justify-content: space-between;
-        justify-content: center;
+        justify-content: space-between;
         &-work {
-            margin: 15px;
             &:hover {
                 h3 {
                     color: $color-section-3-span2;
